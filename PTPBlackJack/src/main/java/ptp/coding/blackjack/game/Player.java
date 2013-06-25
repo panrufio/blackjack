@@ -1,5 +1,15 @@
 package ptp.coding.blackjack.game;
 
+/**
+ * Player if the class to keep track of the players hand and the progress
+ * of win/tie/loss
+ * There is also a strategy available for the player.  So, if it desired
+ * to automate playing, the strategy can be used.
+ * 
+ * 
+ * @author andrew
+ *
+ */
 public class Player {
 
 	protected PlayersHand P_Hand;
@@ -31,5 +41,10 @@ public class Player {
 	public void tie(){
 		ties++;
 	}
+	
+	public String toString(){
+		
+		return "wins = " + wins + " ties = " + ties + " losses = " + losses;
+	} // end toString
 	
 } // end Player
