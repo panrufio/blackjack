@@ -3,7 +3,7 @@ blackjack
 
 Demonstration of coding capabilities with Black Jack
 
-
+Requested Code:
 Blackjack Coding Problem
 
 For this problem, you will be coding a simplified version of the game Blackjack. You may use Java and/or Groovy.
@@ -27,3 +27,14 @@ The object of the game is to get as close to or equal to 21 without going over. 
 You must create a model of the blackjack game and entities involved (no UI components required). Unit tests should be included for your code. You may use 3rd party support libraries (e.g. Apache commons).
 
 Please submit a zip or tar file containing everything needed to run your test code, and a README file indicating how to run it. You may use standard build systems (ant, maven, gradle) or write a batch/bash script file to run your code.
+
+
+
+Compiling and running
+
+After untaring the file,
+
+cd PTPBlackJack/
+mvn assembly:assembly
+
+java -jar target/PTPBlackJack-0.0.1-SNAPSHOT-jar-with-dependencies.jar
